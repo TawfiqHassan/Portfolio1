@@ -1,8 +1,15 @@
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
 .name-highlighter{
     color: orange;
@@ -11,8 +18,46 @@ body{
     width: 40%;
     float: left;
     margin-left: 5%;
-    padding-left: 0%;
+    padding-left: 2%;
 }
 .half-width img{
     width: 100%;
 }
+.top-banner{
+    border: 1px solid rgba(67, 236, 132, 0.664);
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient( lightSalmon , Tomato );
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+.Dream-To-Be{
+    border: 1px solid rgba(37, 97, 226, 0.664);
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.Experience{
+    background-image: url(images/exp-bg.png);
+ background-repeat: no-repeat;
+
+}
+.Single-Experience{
+ box-shadow: 10px 10px 40px  dimgray;
+ border-radius: 5px;
+ height: 80%;
+ 
+}
+#full-stack{
+    border-left: 7px solid blue;
+    border-image:linear-gradient( 180deg, lightSalmon , Tomato );
+    border-image-slice: 1;
